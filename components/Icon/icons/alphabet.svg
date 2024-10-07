@@ -1,0 +1,27 @@
+var _rect, _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgAlphabet = function SvgAlphabet(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 1.75,
+    y: 1.75,
+    width: 16.5,
+    height: 16.5,
+    rx: 3.25,
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M6 14L10 6L14 14M7.33333 12H12.6667",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+};
+export default SvgAlphabet;

@@ -1,0 +1,16 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgBlockchainV2 = function SvgBlockchainV2(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "currentColor",
+    d: "M5.882 1.12a.866.866 0 0 1 .88 0l4.207 2.483c.264.156.426.44.426.746v4.15l1.834-1.081a.866.866 0 0 1 .776-.053l.105.053L18.316 9.9c.264.156.426.44.426.746v5.005c0 .307-.162.59-.426.746L14.11 18.88a.866.866 0 0 1-.88 0l-4.206-2.483a.866.866 0 0 1-.426-.745v-4.153l-1.835 1.084a.866.866 0 0 1-.775.052l-.105-.053L1.676 10.1a.866.866 0 0 1-.426-.746V4.35c0-.307.162-.59.426-.746L5.882 1.12Zm11.652 10.564-3.262 1.854v3.844l3.262-1.926v-3.772Zm-7.73 0v3.772l3.261 1.925v-3.842l-3.261-1.855Zm3.866-3.125-3.395 2.004 3.393 1.93 3.395-1.93-3.393-2.004Zm-3.483-3.173L6.925 7.241v3.843l3.262-1.926V5.386Zm-7.73 0v3.772l3.261 1.925V7.242L2.457 5.386Zm3.866-3.124L2.928 4.265l3.394 1.93 3.394-1.93-3.393-2.003Z"
+  })));
+};
+export default SvgBlockchainV2;

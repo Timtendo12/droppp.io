@@ -1,0 +1,17 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgChevronRight = function SvgChevronRight(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 11,
+    height: 15,
+    viewBox: "0 0 11 15",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M1.8999 13.2954L9.0999 7.29541L1.8999 1.29541",
+    strokeWidth: 2.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+};
+export default SvgChevronRight;

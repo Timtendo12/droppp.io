@@ -1,0 +1,153 @@
+@import '/styles/_breakpoints.scss';
+
+.overlay {
+  --modalPadding-init: var(--modalPadding, 16px);
+  --headerHeight-init: var(--headerHeight, 72px);
+  --maxWidth-init: var(--maxWidth, 600px);
+  --borderRadius-init: var(--borderRadius, 24px);
+  --scrollbarWidth-init: var(--scrollbarWidth, 0px);
+  --borderColor-init: var(--borderColor, theme(colors.gray-900));
+
+  position: fixed;
+  inset: 0;
+  overflow-y: auto;
+  overscroll-behavior: none;
+  padding-top: var(--modalPadding-init);
+  padding-left: 0;
+  padding-right: 0;
+  display: flex;
+  flex-wrap: wrap;
+  align-items: flex-end;
+  @apply z-modal;
+
+  &:after {
+    content: '';
+    position: fixed;
+    inset: 0;
+    z-index: -1;
+    @apply bg-modalOverlay;
+    pointer-events: none;
+  }
+
+  @include md {
+    align-items: center;
+    padding-left: var(--modalPadding-init);
+    padding-right: var(--modalPadding-init);
+    scrollbar-gutter: stable both-edges;
+  }
+}
+
+.modal {
+  position: relative;
+  margin: 0 auto;
+  width: 100%;
+  max-width: var(--maxWidth-init);
+  box-shadow: -2px 5px 10px 5px rgba(0, 0, 0, 0.05);
+  outline: none;
+  background-color: var(--bgColor);
+  border-top-left-radius: var(--borderRadius-init) !important;
+  border-top-right-radius: var(--borderRadius-init) !important;
+
+  @include md {
+    border-radius: var(--borderRadius-init) !important;
+  }
+
+  &:after {
+    content: '';
+    position: absolute;
+    border-radius: inherit;
+    inset: 0;
+    z-index: 1;
+    pointer-events: none;
+  }
+
+  & > main {
+    border-radius: inherit;
+  }
+}
+
+.header {
+  top: calc(var(--modalPadding) * -1);
+  position: sticky;
+  z-index: 999;
+  border-top-left-radius: inherit;
+  border-top-right-radius: inherit;
+  display: flex;
+  gap: 8px;
+  align-items: center;
+  justify-content: space-between;
+  overflow: hidden;
+  padding: var(--modalPadding) 0;
+  transition: background-color 0.25s;
+
+  &:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-bottom: 1px solid transparent;
+    transition: border-color 0.25s;
+    z-index: -1;
+  }
+
+  &.headerRevealOnScroll {
+    @apply rounded-none;
+    background-color: var(--bgColor);
+
+    &:after {
+      border-bottom-color: var(--color-gray-700);
+    }
+  }
+}
+
+.header_title {
+  // offset for the close icon width to keep the title centered - Josh Dobson
+  padding-right: var(--closeButtonTotalWidth);
+  padding-left: var(--closeButtonWidth);
+  text-align: center;
+  white-space: nowrap;
+  text-overflow: ellipsis;
+  overflow: hidden;
+  opacity: var(--titleOpacity);
+  transform: translateY(var(--titleTranslateY));
+  margin: 0;
+  flex: 1;
+}
+
+.content {
+  line-height: 22.4px;
+  border-top-left-radius: var(--borderRadius-init);
+  border-top-right-radius: var(--borderRadius-init);
+  background-color: var(--bgColor);
+
+  @include md {
+    border-bottom-left-radius: var(--borderRadius-init);
+    border-bottom-right-radius: var(--borderRadius-init);
+  }
+
+  &.overlayHeader {
+    @apply rounded-[var(--borderRadius)] -mt-[var(--headerHeight)] overflow-hidden;
+  }
+}
+
+.content_title {
+  margin-top: 0;
+  font-size: 24px;
+  line-height: 28.8px;
+}
+
+.footer {
+  position: sticky;
+  bottom: 0;
+  padding: var(--modalPadding-init);
+  border-top: 1px solid var(--borderColor);
+  background-color: var(--bgColor);
+
+  @include md {
+    border-bottom-left-radius: var(--borderRadius-init);
+    border-bottom-right-radius: var(--borderRadius-init);
+  }
+
+  button:not(:first-child) {
+    margin: 0;
+  }
+}

@@ -1,0 +1,30 @@
+var _rect, _path, _circle;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgLock = function SvgLock(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 3.25,
+    y: 7.625,
+    width: 13.5,
+    height: 11,
+    rx: 2.25,
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M5.625 7.26562V5.35156C5.625 3.08633 7.58375 1.25 10 1.25C12.4162 1.25 14.375 3.08633 14.375 5.35156V7.26562",
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 10,
+    cy: 13.125,
+    r: 1.875,
+    fill: "currentColor"
+  })));
+};
+export default SvgLock;

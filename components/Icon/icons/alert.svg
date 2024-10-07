@@ -1,0 +1,26 @@
+var _path, _path2, _path3;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgAlert = function SvgAlert(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 19,
+    height: 20,
+    viewBox: "0 0 19 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M7.00154 2.40612C8.03446 0.455044 10.8295 0.455037 11.8624 2.40612L18.5406 15.0205C19.5102 16.852 18.1825 19.0572 16.1101 19.0572H2.75377C0.681439 19.0572 -0.646265 16.852 0.323353 15.0205L7.00154 2.40612ZM10.5367 3.10795C10.0672 2.2211 8.79673 2.2211 8.32722 3.10795L1.64903 15.7223C1.2083 16.5548 1.8118 17.5572 2.75377 17.5572H16.1101C17.0521 17.5572 17.6556 16.5548 17.2149 15.7223L10.5367 3.10795Z",
+    fill: "currentColor"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M8.34918 7.16535C8.30284 6.53608 8.80089 6 9.43186 6C10.0639 6 10.5624 6.53788 10.5143 7.16813L10.2367 11.7639C10.2044 12.1875 9.85097 12.5146 9.42611 12.514C9.00125 12.5135 8.64865 12.1855 8.61745 11.7618L8.34918 7.16535Z",
+    fill: "currentColor"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M10.5175 14.7182C10.5175 15.3178 10.0315 15.8039 9.43186 15.8039C8.83226 15.8039 8.34619 15.3178 8.34619 14.7182C8.34619 14.1186 8.83226 13.6326 9.43186 13.6326C10.0315 13.6326 10.5175 14.1186 10.5175 14.7182Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgAlert;

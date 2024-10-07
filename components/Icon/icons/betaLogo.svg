@@ -1,0 +1,105 @@
+var _path, _path2, _path3, _path4, _path5, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgBetaLogo = function SvgBetaLogo(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 44,
+    height: 28,
+    viewBox: "0 0 44 28",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M8 18.4h3.372c1.764 0 2.928-.924 2.928-2.484 0-1.128-.648-1.8-1.44-2.1.516-.264 1.02-.864 1.02-1.656 0-1.392-1.092-2.16-2.628-2.16H8v8.4Zm1.56-5.112v-2.016h1.56c.864 0 1.284.36 1.284 1.008s-.42 1.008-1.26 1.008H9.56Zm0 3.732v-2.388h1.644c1.068 0 1.572.432 1.572 1.2 0 .78-.504 1.188-1.572 1.188H9.56Z",
+    fill: "url(#a)"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M15.523 18.4h5.724v-1.38h-4.14v-2.244h3.216v-1.368h-3.216v-2.04h4.008V10h-5.592v8.4Z",
+    fill: "url(#b)"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M24.332 18.4h1.584v-7.032h2.532V10h-6.66v1.368h2.544V18.4Z",
+    fill: "url(#c)"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M33.83 18.4h1.644l-3.24-8.4h-1.488l-3.228 8.4h1.632l.72-1.956h3.24l.72 1.956Zm-3.456-3.3 1.128-3.072L32.63 15.1h-2.256Z",
+    fill: "url(#d)"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M38 1.5H6A4.5 4.5 0 0 0 1.5 6v16A4.5 4.5 0 0 0 6 26.5h32a4.5 4.5 0 0 0 4.5-4.5V6A4.5 4.5 0 0 0 38 1.5ZM6 0a6 6 0 0 0-6 6v16a6 6 0 0 0 6 6h32a6 6 0 0 0 6-6V6a6 6 0 0 0-6-6H6Z",
+    fill: "url(#e)"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "a",
+    x1: 48,
+    y1: 0,
+    x2: -1.5,
+    y2: 28,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFDA4A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FF00DB"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#2577F1"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "b",
+    x1: 48,
+    y1: 0,
+    x2: -1.5,
+    y2: 28,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFDA4A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FF00DB"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#2577F1"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "c",
+    x1: 48,
+    y1: 0,
+    x2: -1.5,
+    y2: 28,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFDA4A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FF00DB"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#2577F1"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "d",
+    x1: 48,
+    y1: 0,
+    x2: -1.5,
+    y2: 28,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFDA4A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FF00DB"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#2577F1"
+  })), /*#__PURE__*/React.createElement("linearGradient", {
+    id: "e",
+    x1: 48,
+    y1: 0,
+    x2: -1.5,
+    y2: 28,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFDA4A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FF00DB"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#2577F1"
+  })))));
+};
+export default SvgBetaLogo;

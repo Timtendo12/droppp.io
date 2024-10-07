@@ -1,0 +1,16 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgRefresh = function SvgRefresh(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M17.1593 10.3005C16.7093 10.3005 16.3411 10.6689 16.3411 11.1192C16.3411 14.619 13.4978 17.4638 9.99999 17.4638C6.50215 17.4638 3.65888 14.619 3.65888 11.1192C3.65888 8.09009 5.78622 5.55223 8.60904 4.91776L7.68855 6.10486C7.40216 6.45276 7.484 6.98496 7.83171 7.25098C7.97487 7.37376 8.15898 7.41474 8.34309 7.41474C8.58852 7.41474 8.83403 7.31241 8.99762 7.10774L11.0431 4.46754C11.3091 4.11964 11.2681 3.62842 10.9204 3.34187L8.30216 1.09053C7.95446 0.803984 7.44308 0.844968 7.13625 1.17241C6.84986 1.52031 6.89082 2.03198 7.21808 2.31853L8.34312 3.28043C4.743 4.0582 2.02246 7.27143 2.02246 11.1192C2.02246 15.5195 5.60212 19.1012 9.99999 19.1012C14.3979 19.1012 17.9775 15.5195 17.9775 11.1192C17.9775 10.6689 17.6093 10.3005 17.1593 10.3005V10.3005Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgRefresh;

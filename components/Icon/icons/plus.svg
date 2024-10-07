@@ -1,0 +1,16 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgPlus = function SvgPlus(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M11.9153 1.98589C11.9153 0.889113 11.0262 0 9.92938 0C8.8326 0 7.94349 0.889112 7.94349 1.98589L7.94349 7.94355L1.98589 7.94355C0.889113 7.94355 0 8.83267 0 9.92944C0 11.0262 0.889112 11.9153 1.98589 11.9153L7.94349 11.9153L7.94349 18.0141C7.94349 19.1109 8.8326 20 9.92938 20C11.0262 20 11.9153 19.1109 11.9153 18.0141L11.9153 11.9153L18.0141 11.9153C19.1109 11.9153 20 11.0262 20 9.92944C20 8.83267 19.1109 7.94355 18.0141 7.94355L11.9153 7.94355L11.9153 1.98589Z",
+    fill: "white"
+  })));
+};
+export default SvgPlus;

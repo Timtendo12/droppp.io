@@ -1,0 +1,22 @@
+var _path, _path2, _path3;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgRarity = function SvgRarity(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 16,
+    height: 16,
+    viewBox: "0 0 16 16",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M9.7779 2.5998L8.00005 7.09981L3.55562 8.89988L8.00016 10.6998L9.77786 15.1998L11.5556 10.6998L16 8.89988L11.5556 7.09995L9.7779 2.5998Z",
+    fill: "currentColor"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M2.22222 4.8498L3.1111 7.09981L3.99999 4.8498L6.22221 3.94981L3.99999 3.0498L3.11114 0.799805L2.22222 3.0498L0 3.94981L2.22222 4.8498Z",
+    fill: "currentColor"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M3.77782 12.4998L3.11114 10.6998L2.44449 12.4998L0.888937 12.9498L2.44449 13.6248L3.11114 15.1998L3.77782 13.6248L5.33337 12.9498L3.77782 12.4998Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgRarity;

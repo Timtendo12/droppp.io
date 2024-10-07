@@ -1,0 +1,19 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgVRGoggles = function SvgVRGoggles(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M14.6667 5C15.6793 5 16.5959 5.41041 17.2595 6.07394C17.923 6.73748 18.3334 7.65414 18.3334 8.66667V12.1183C18.3334 12.914 18.0109 13.6345 17.4894 14.156C16.9679 14.6775 16.2475 15 15.4517 15H12.6398C12.5557 14.4831 12.2781 14.0184 11.8669 13.666C11.3892 13.2565 10.73 13 10.0001 13C9.2702 13 8.611 13.2565 8.13323 13.666C7.72209 14.0184 7.44451 14.4831 7.36032 15H4.54847C3.7527 15 3.03227 14.6775 2.51078 14.156C1.9893 13.6345 1.66675 12.914 1.66675 12.1183V8.66667C1.66675 7.65414 2.07715 6.73748 2.74069 6.07394C3.40423 5.41041 4.32089 5 5.33341 5H14.6667Z",
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })));
+};
+export default SvgVRGoggles;

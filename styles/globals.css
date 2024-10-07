@@ -1,0 +1,229 @@
+html,
+body {
+  height: 100%; /* Sticky Footer Support */
+  padding: 0;
+  margin: 0;
+  @apply font-primary text-base text-white;
+  -webkit-overflow-scrolling: touch;
+}
+
+body,
+#__next {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  min-height: 0;
+}
+
+body.blockBodyScrolling,
+body.ReactModal__Body--open {
+  overflow: hidden;
+}
+
+body {
+  @apply text-white;
+  @apply !bg-black;
+  @apply body;
+}
+
+body ::-webkit-scrollbar-thumb {
+  border-radius: 10px;
+  -webkit-box-shadow: inset 0 0 6px rgba(0, 0, 0, 0.3);
+  @apply bg-gray-400;
+}
+
+textarea,
+input,
+select,
+button {
+  outline: none;
+}
+
+input {
+  background: none;
+}
+
+textarea,
+input[type='range'],
+input,
+input:matches([type='password'], [type='search']) {
+  /* Remove First */
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+}
+
+* {
+  box-sizing: border-box;
+}
+
+@tailwind base;
+@tailwind components;
+@tailwind utilities;
+
+:root {
+  --boxPadding: theme(spacing.3);
+
+  @screen md {
+    --boxPadding: theme(spacing.4);
+  }
+}
+
+.font-primary {
+  @apply antialiased;
+}
+
+@layer components {
+  /* Fonts more explicitly defined in tailwind.config.js */
+  .h1,
+  .h2,
+  .h3,
+  .h4,
+  .h5,
+  .h6,
+  .h7,
+  .h8 {
+    @apply uppercase font-primary;
+  }
+
+  .body,
+  .body-md,
+  .body-xs,
+  .body-sm,
+  .body-lg {
+    @apply font-primary font-medium leading-normal;
+  }
+
+  .container-padding {
+    @apply px-2 md:px-4;
+  }
+
+  .container,
+  .container-lg,
+  .container-sm,
+  .container-xs {
+    @apply w-full mx-auto px-2 md:px-4;
+  }
+
+  .container {
+    @apply max-w-[1248px];
+  }
+
+  .container-lg {
+    @apply max-w-[1648px];
+  }
+
+  .container-sm {
+    @apply max-w-[1088px];
+  }
+
+  .container-xs {
+    @apply max-w-[648px];
+  }
+
+  .border-mythic {
+    position: relative;
+
+    &:after {
+      content: '';
+      position: absolute;
+      inset: -1px;
+      border-radius: inherit;
+      border-radius: inherit;
+      padding: 1px;
+      @apply bg-mythic;
+      -webkit-mask: linear-gradient(#fff 0 0) content-box,
+        linear-gradient(#fff 0 0);
+      -webkit-mask-composite: xor;
+      mask-composite: exclude;
+      pointer-events: none;
+    }
+  }
+
+  .border-redeemable:after {
+    content: '';
+    position: absolute;
+    inset: 0;
+    border-radius: inherit;
+    padding: 1px;
+    @apply bg-rainbow;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+    pointer-events: none;
+  }
+
+  .card--hover {
+    @apply hover:scale-105 transition-transform transform-gpu duration-button;
+  }
+}
+
+.section-link {
+  @apply utility uppercase text-blue--light hover:text-blue;
+}
+
+.ReactModal__Overlay {
+  opacity: 0;
+  transition: opacity 350ms ease-in-out;
+}
+
+.ReactModal__Overlay--after-open {
+  opacity: 1;
+}
+
+.ReactModal__Overlay--before-close {
+  opacity: 0;
+}
+
+.ReactModal__Content {
+  opacity: 0;
+  /* scale: 0.8; */
+  transition: opacity 350ms ease-in-out,
+    scale 350ms cubic-bezier(0.39, 0.24, 0.29, 1.25);
+
+  &:focus-visible {
+    outline: none;
+  }
+}
+
+.ReactModal__Content--after-open {
+  /* scale: 1; */
+  opacity: 1;
+}
+
+.ReactModal__Content--before-close {
+  /* scale: 0.8; */
+  opacity: 0;
+  transition: opacity 350ms ease-in-out,
+    scale 350ms cubic-bezier(0.59, -0.25, 0.6, 0.65);
+}
+
+#popup-root {
+  z-index: 9999;
+  position: absolute;
+  top: 0;
+  left: 0;
+}
+
+/* no need for an extra arrow on summaries */
+details summary::-webkit-details-marker {
+  display: none;
+}
+
+@layer base {
+  input[type='number']::-webkit-outer-spin-button,
+  input[type='number']::-webkit-inner-spin-button,
+  input[type='number'] {
+    -webkit-appearance: none;
+    margin: 0;
+    -moz-appearance: textfield !important;
+  }
+}
+
+input:-webkit-autofill,
+textarea:-webkit-autofill,
+select:-webkit-autofill {
+  -webkit-box-shadow: 0 0 0 1000px var(--inputBg, var(--color-gray-800)) inset !important;
+  -webkit-text-fill-color: var(--color-white) !important;
+}

@@ -1,0 +1,23 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCalendar = function SvgCalendar(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    d: "M1.75 5.5A3.25 3.25 0 015 2.25h10a3.25 3.25 0 013.25 3.25V15A3.25 3.25 0 0115 18.25H5A3.25 3.25 0 011.75 15V5.5z"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    stroke: "currentColor",
+    strokeLinecap: "round",
+    strokeLinejoin: "round",
+    strokeWidth: 1.5,
+    d: "M4.5 7h11M5 4V1m10 3V1"
+  })));
+};
+export default SvgCalendar;

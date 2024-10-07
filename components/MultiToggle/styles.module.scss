@@ -1,0 +1,33 @@
+.container {
+  display: flex;
+  align-items: center;
+  height: 40px;
+  padding: 4px;
+  box-sizing: border-box;
+  border-radius: 118px;
+
+  @apply border border-defaultBorder;
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+
+  .tab {
+    flex: 1;
+    height: 100%;
+    padding: 0 16px;
+    font-size: 14px;
+    line-height: 17px;
+    white-space: nowrap;
+
+    @media (max-width: 767px) {
+      width: 50%;
+    }
+
+    &.active {
+      border-radius: 130px;
+      font-weight: 600;
+      @apply bg-gray-700;
+    }
+  }
+}

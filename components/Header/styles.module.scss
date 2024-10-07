@@ -1,0 +1,59 @@
+:global(.hiddenHeader) .container {
+  transform: translateY(-100%);
+}
+
+:global(.mainMenuOpen) .content {
+  @apply bg-gray-900;
+}
+
+.container {
+  position: fixed;
+  top: 0;
+  left: 0;
+  right: 0;
+  z-index: 500;
+  transform: translateY(0);
+  transition: transform 0.35s ease-in-out, background-color 0.75s;
+  @apply bg-gray-900;
+
+  &:after {
+    pointer-events: none;
+    content: '';
+    inset: 0;
+    position: absolute;
+    @apply border-b border-defaultBorder;
+  }
+
+  &.translucent {
+    @apply bg-transparent after:border-b-0;
+  }
+
+  &.headerScroll {
+    @apply bg-gray-900 after:border-b;
+    box-shadow: 0px 24px 24px -16px rgba(0, 0, 0, 0.16);
+  }
+
+  .content {
+    display: flex;
+    align-items: center;
+    height: 72px;
+    padding: 0 32px;
+    margin: 0 auto;
+
+    @media (max-width: 768px) {
+      justify-content: space-between;
+      height: 64px;
+      padding: 0 16px;
+    }
+
+    .logoContainer {
+      display: flex;
+      align-items: center;
+      margin-right: 12px;
+
+      .logo {
+        cursor: pointer;
+      }
+    }
+  }
+}

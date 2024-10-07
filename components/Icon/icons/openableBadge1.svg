@@ -1,0 +1,22 @@
+var _path, _path2, _path3;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgOpenableBadge1 = function SvgOpenableBadge1(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 96,
+    height: 96,
+    viewBox: "0 0 96 96",
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "#A3A3A3",
+    d: "M48 88c22.091 0 40-17.909 40-40S70.091 8 48 8 8 25.909 8 48s17.909 40 40 40Z"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fill: "#171717",
+    d: "M48.336 83.593c19.76 0 35.796-16.025 35.796-35.797C84.132 28.026 68.107 12 48.335 12 28.565 12 12.54 28.024 12.54 47.797c0 19.772 16.025 35.796 35.797 35.796Z"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M38.25 59.129h1.462v5.666H38.25v-5.666ZM42.156 60.397H40.57v-1.279h4.623v1.279h-1.575v4.387h-1.462v-4.387ZM46.063 59.129h4.152v1.227h-2.69v.94h2.629v1.238h-2.629v1.023h2.69v1.227h-4.153v-5.666.01ZM56.19 60.97l-1.431 3.825h-.644l-1.422-3.825v3.825h-1.462v-5.666h2.024l1.177 3.211 1.186-3.211h2.025v5.666h-1.462V60.97h.01ZM45.341 53.412V38.275l-2.915 2.976L39 37.692l7.19-7.128h5.206v22.848H45.33h.01Z"
+  })));
+};
+export default SvgOpenableBadge1;

@@ -1,0 +1,12 @@
+{
+  "name": "dropp_sc",
+  "version": "1.0.0",
+  "description": "The source code of the frontend",
+  "main": "modified/index.js",
+  "devDependencies": {},
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "Droppp",
+  "license": "MIT"
+}

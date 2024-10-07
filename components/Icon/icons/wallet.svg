@@ -1,0 +1,17 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgWallet = function SvgWallet(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M2.00146 3.99963C2.00146 5.34888 3.00147 5.99963 4.00147 5.99963M2.00146 3.99963C2.00146 5.1042 2.8969 5.99963 4.00147 5.99963M2.00146 3.99963C2.00146 2.89506 2.8969 1.99963 4.00147 1.99963H12.0015C13.106 1.99963 14.0015 2.89506 14.0015 3.99963C14.0015 5.1042 13.106 5.99963 12.0015 5.99963H4.00147M2.00146 3.99963V14.1464C2.00146 16.2745 3.73456 17.9996 5.87243 17.9996H14.1305C16.2684 17.9996 18.0015 16.2745 18.0015 14.1464V9.77949C18.0015 7.65143 16.2039 5.99963 14.066 5.99963H4.00147M17.991 9.99964H14.5015C13.3969 9.99964 12.5015 10.8951 12.5015 11.9996C12.5015 13.1042 13.3969 13.9996 14.5015 13.9996H17.991V9.99964Z",
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })));
+};
+export default SvgWallet;

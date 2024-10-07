@@ -1,0 +1,18 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCheckMark = function SvgCheckMark(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 14,
+    height: 13,
+    viewBox: "0 0 14 13",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M13.0653 1.07859C13.7298 1.50378 13.9208 2.38258 13.492 3.04144L7.53008 12.2016C7.31769 12.5279 6.97977 12.7537 6.59502 12.8264C6.21027 12.8992 5.81227 12.8124 5.49372 12.5864L1.31979 9.62543C0.67662 9.16915 0.528262 8.28228 0.988427 7.64455C1.44859 7.00682 2.34302 6.85971 2.9862 7.31599L5.93836 9.41028L11.0857 1.50168C11.5145 0.842815 12.4008 0.653391 13.0653 1.07859Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgCheckMark;

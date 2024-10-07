@@ -1,0 +1,28 @@
+var _circle, _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgQuestion = function SvgQuestion(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 10,
+    cy: 10,
+    r: 9,
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M8 7.875C8 6.83947 8.89543 6 10 6C11.1046 6 12 6.83947 12 7.875C12 8.75018 11.3604 9.48532 10.4955 9.692C10.227 9.75619 10 9.97386 10 10.25V11",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M10.75 13.25C10.75 13.6642 10.4142 14 10 14C9.58579 14 9.25 13.6642 9.25 13.25C9.25 12.8358 9.58579 12.5 10 12.5C10.4142 12.5 10.75 12.8358 10.75 13.25Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgQuestion;

@@ -1,0 +1,35 @@
+.container {
+  display: flex;
+  align-items: center;
+  margin-top: 8px;
+  cursor: pointer;
+
+  .label {
+    margin-left: 10px;
+    @apply body-sm;
+  }
+
+  .icon {
+    position: relative;
+    width: 20px;
+    height: 20px;
+    border-radius: 50%;
+    @apply border-[2px] border-gray-300;
+
+    &.selected {
+      @apply border-blue;
+
+      &::before {
+        content: '';
+        position: absolute;
+        top: 50%;
+        left: 50%;
+        transform: translate(-50%, -50%);
+        width: 14px;
+        height: 14px;
+        border-radius: 50%;
+        @apply bg-blue;
+      }
+    }
+  }
+}

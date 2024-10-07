@@ -1,0 +1,26 @@
+var _circle, _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgHelpFilledLarge = function SvgHelpFilledLarge(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 14,
+    height: 14,
+    viewBox: "0 0 14 14",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _circle || (_circle = /*#__PURE__*/React.createElement("circle", {
+    cx: 7,
+    cy: 7,
+    r: 7,
+    fill: "currentColor"
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M7.04923 3.71818C6.20539 3.71818 5.61741 4.34651 5.61741 5.00682C5.61741 5.48128 5.23278 5.86591 4.75832 5.86591C4.28386 5.86591 3.89923 5.48128 3.89923 5.00682C3.89923 3.29481 5.3626 2 7.04923 2C8.73586 2 10.1992 3.29481 10.1992 5.00682C10.1992 6.41733 9.19745 7.55168 7.90832 7.9003V8.58636C7.90832 9.06083 7.52369 9.44546 7.04923 9.44546C6.57477 9.44546 6.19014 9.06083 6.19014 8.58636V7.72727C6.19014 6.90037 6.84485 6.38932 7.41716 6.25255C8.06546 6.09762 8.48105 5.56796 8.48105 5.00682C8.48105 4.34651 7.89307 3.71818 7.04923 3.71818ZM7.81652 7.92367C7.81704 7.92355 7.81755 7.92343 7.81806 7.92331L7.81652 7.92367Z",
+    fill: "#090909"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M7.90843 11.1638C7.90843 11.6382 7.5238 12.0229 7.04934 12.0229C6.57487 12.0229 6.19025 11.6382 6.19025 11.1638C6.19025 10.6893 6.57487 10.3047 7.04934 10.3047C7.5238 10.3047 7.90843 10.6893 7.90843 11.1638Z",
+    fill: "#090909"
+  })));
+};
+export default SvgHelpFilledLarge;

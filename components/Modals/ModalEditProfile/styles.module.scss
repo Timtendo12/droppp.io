@@ -1,0 +1,58 @@
+.iconWrapper {
+  @apply m-auto flex justify-center items-center;
+  width: 120px;
+  height: 120px;
+  img {
+    border-radius: 35px;
+  }
+  @media (max-width: 768px) {
+    margin: unset;
+  }
+}
+
+.modal:global(.ReactModal__Content) {
+  @apply bg-gray-850;
+  display: flex;
+  flex: 1;
+  border-radius: 24px;
+}
+
+.asset {
+  @apply relative;
+  aspect-ratio: 1 / 1;
+  border-radius: 32px;
+  transition: box-shadow 0.25s;
+
+  &:hover {
+    @apply text-white shadow-outline-md;
+  }
+
+  &.isSelected {
+    @apply text-blue shadow-outline-md;
+  }
+
+  img {
+    border-radius: inherit;
+  }
+
+  &:disabled {
+    box-shadow: none !important;
+  }
+}
+
+.locked {
+  @apply absolute flex justify-center items-center rounded-[31px];
+  inset: 0px;
+  background: rgba(9, 9, 9, 0.72);
+}
+
+.locked__icon {
+  @apply cursor-pointer;
+  svg {
+    width: 32px;
+    height: 32px;
+    circle {
+      fill: white;
+    }
+  }
+}

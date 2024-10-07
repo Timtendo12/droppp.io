@@ -1,0 +1,33 @@
+var _path, _path2, _path3, _path4;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCardShow = function SvgCardShow(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 23,
+    height: 30,
+    viewBox: "0 0 23 30",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M5.88403 15.4996V2.49963C5.88403 1.94735 6.33175 1.49963 6.88403 1.49963H15.384C15.9363 1.49963 16.384 1.94735 16.384 2.49963V15.4996C16.384 16.0519 15.9363 16.4996 15.384 16.4996H6.88403C6.33175 16.4996 5.88403 16.0519 5.88403 15.4996Z",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinejoin: "round"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M19.9618 21.8759C20.4154 22.2487 20.7147 22.6413 20.7147 23.0835C20.7147 23.6096 20.3077 24.0612 19.7018 24.4879C18.4973 25.3372 16.5119 25.9679 14.1443 26.2651C13.7196 26.319 13.4172 26.7074 13.4711 27.1331C13.5249 27.5587 13.9133 27.8601 14.339 27.8063C17.0111 27.4707 19.2378 26.7157 20.5966 25.7577C21.7007 24.9799 22.2683 24.0405 22.2683 23.0835C22.2683 22.2301 21.8239 21.3963 20.9498 20.6765C20.6184 20.4041 20.1285 20.4518 19.8561 20.7832C19.5837 21.1136 19.6314 21.6035 19.9618 21.8759V21.8759Z",
+    fill: "currentColor"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M10.6314 26.4442C7.49948 26.3821 4.74556 25.7544 3.04598 24.7902C2.15943 24.2879 1.55354 23.7452 1.55354 23.0834C1.55354 22.6411 1.85286 22.2486 2.3065 21.8757C2.63688 21.6034 2.68452 21.1135 2.41214 20.7831C2.13975 20.4517 1.64986 20.404 1.31844 20.6764C0.444314 21.3962 0 22.23 0 23.0834C0 24.1957 0.788165 25.2956 2.27957 26.1418C4.14589 27.2003 7.1608 27.9294 10.6003 27.9977C11.0291 28.006 11.3844 27.6643 11.3927 27.2365C11.4009 26.8077 11.0602 26.4525 10.6314 26.4442V26.4442Z",
+    fill: "currentColor"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M8.61869 25.6013L10.0345 27.2222L8.41466 28.639C8.09152 28.9207 8.05838 29.4116 8.34112 29.7348C8.62283 30.0579 9.11375 30.09 9.43689 29.8083L11.6419 27.8798C11.965 27.5981 11.9982 27.1072 11.7154 26.7841L9.78799 24.5791C9.50525 24.2559 9.01433 24.2228 8.69222 24.5056C8.36909 24.7873 8.33594 25.2782 8.61869 25.6013V25.6013Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgCardShow;

@@ -1,0 +1,42 @@
+.rarityBadge--redeemable {
+  position: relative;
+  @apply bg-redeemable;
+
+  &:after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    border-radius: inherit;
+    padding: 1px;
+    @apply bg-rainbow;
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+}
+
+.rarityBadge--mythic {
+  position: relative;
+  background: linear-gradient(
+    90deg,
+    rgba(1, 255, 255, 0.24) 0%,
+    rgba(153, 38, 193, 0.24) 100%
+  );
+  border-color: transparent;
+
+  &:after {
+    content: '';
+    position: absolute;
+    inset: -1px;
+    border-radius: inherit;
+    border-radius: inherit;
+    padding: 1px;
+    background: linear-gradient(90deg, rgb(1, 255, 255), rgb(153, 38, 193));
+    -webkit-mask: linear-gradient(#fff 0 0) content-box,
+      linear-gradient(#fff 0 0);
+    -webkit-mask-composite: xor;
+    mask-composite: exclude;
+  }
+}

@@ -1,0 +1,25 @@
+var _rect, _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCardVisaDark = function SvgCardVisaDark(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 40,
+    height: 28,
+    viewBox: "0 0 40 28",
+    fill: "none"
+  }, props), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    width: 40,
+    height: 28,
+    fill: "#fff",
+    fillOpacity: 0.15,
+    rx: 4
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M18.117 18.532H15.83l1.43-9.035h2.288l-1.43 9.035zm8.293-8.814a5.533 5.533 0 00-2.052-.385c-2.259 0-3.85 1.23-3.86 2.99-.018 1.297 1.14 2.018 2.005 2.45.885.443 1.186.731 1.186 1.125-.009.606-.715.885-1.374.885-.913 0-1.402-.144-2.146-.48l-.3-.145-.32 2.028c.536.25 1.524.471 2.55.48 2.4 0 3.962-1.21 3.981-3.085.01-1.028-.602-1.816-1.92-2.46-.8-.414-1.29-.693-1.29-1.116.01-.384.415-.778 1.318-.778.743-.02 1.29.163 1.703.346l.207.096.311-1.951zm3.039 5.613l.913-2.528c-.01.02.188-.528.301-.865l.16.779s.433 2.163.527 2.614h-1.9zm2.823-5.834h-1.769c-.545 0-.96.163-1.195.75l-3.398 8.285h2.4l.48-1.355h2.937c.066.317.273 1.355.273 1.355h2.118l-1.846-9.035zm-18.352 0l-2.24 6.161-.245-1.25c-.414-1.441-1.713-3.008-3.162-3.787l2.052 7.902h2.418l3.595-9.026H13.92z"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M9.6 9.497H5.92l-.038.183c2.87.75 4.772 2.556 5.553 4.729l-.8-4.152c-.131-.577-.536-.74-1.035-.76z"
+  })));
+};
+export default SvgCardVisaDark;

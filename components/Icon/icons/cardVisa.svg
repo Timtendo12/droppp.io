@@ -1,0 +1,36 @@
+var _rect, _path, _path2, _path3, _path4, _path5;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCardVisa = function SvgCardVisa(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 40,
+    height: 24,
+    viewBox: "0 0 40 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 39,
+    height: 23,
+    rx: 5.5,
+    stroke: "white",
+    strokeOpacity: 0.15
+  })), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M17.2665 15.8846H15.1603L16.4777 8.14039H18.5838L17.2665 15.8846Z",
+    fill: "white"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M24.9019 8.3297C24.4865 8.17301 23.8276 8 23.0129 8C20.9329 8 19.4682 9.05448 19.4593 10.5621C19.442 11.6743 20.5079 12.2921 21.3052 12.663C22.12 13.042 22.397 13.2894 22.397 13.6272C22.3887 14.146 21.7386 14.3851 21.1322 14.3851C20.2913 14.3851 19.8407 14.2618 19.156 13.9732L18.8787 13.8494L18.5839 15.5878C19.0779 15.8018 19.988 15.9917 20.9329 16C23.1429 16 24.5816 14.9618 24.5987 13.3553C24.6071 12.4737 24.0442 11.7982 22.8308 11.2462C22.0941 10.8919 21.643 10.6529 21.643 10.2904C21.6516 9.9608 22.0245 9.62321 22.8561 9.62321C23.5408 9.60668 24.0439 9.76315 24.425 9.91974L24.6155 10.002L24.9019 8.3297Z",
+    fill: "white"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M27.701 13.1411C27.8745 12.6962 28.5419 10.9743 28.5419 10.9743C28.5331 10.9909 28.715 10.5212 28.819 10.2329L28.9662 10.9002C28.9662 10.9002 29.365 12.7539 29.4517 13.1411C29.1225 13.1411 28.117 13.1411 27.701 13.1411ZM30.3008 8.14039H28.6717C28.1693 8.14039 27.7876 8.28033 27.5709 8.78293L24.4424 15.8845H26.6523C26.6523 15.8845 27.0162 14.9287 27.0944 14.7228C27.3368 14.7228 29.4867 14.7228 29.7986 14.7228C29.859 14.9947 30.0499 15.8845 30.0499 15.8845H32L30.3008 8.14039Z",
+    fill: "white"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M13.4013 8.14039L11.3387 13.4212L11.1133 12.3502C10.7319 11.1144 9.53594 9.7717 8.20131 9.10409L10.0906 15.8764H12.3179L15.6284 8.14039H13.4013Z",
+    fill: "white"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M9.42332 8.14039H6.03467L6 8.29686C8.64336 8.93951 10.394 10.4883 11.1133 12.3502L10.3766 8.79136C10.2553 8.29675 9.88264 8.1567 9.42332 8.14039Z",
+    fill: "white"
+  })));
+};
+export default SvgCardVisa;

@@ -1,0 +1,26 @@
+.container {
+  width: 100%;
+
+  .progressBar {
+    position: relative;
+    margin-top: 12px;
+    height: 4px;
+    border-radius: 3px;
+    @apply bg-gray-700;
+
+    .activeBar {
+      position: absolute;
+      top: 0;
+      left: 0;
+      bottom: 0;
+      background: linear-gradient(
+        270deg,
+        #ffda4a -3.14%,
+        #ff00db 55.8%,
+        #2577f1 114.64%
+      );
+      border-radius: 3px;
+      transition: width 0.3s ease-in-out;
+    }
+  }
+}

@@ -1,0 +1,25 @@
+var _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgFunkoCrown = function SvgFunkoCrown(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 21,
+    height: 20,
+    viewBox: "0 0 21 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_14338_6034)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M19.3198 8.58113C18.689 8.37769 17.9981 8.56812 17.5589 9.0665C17.1197 9.56488 17.0153 10.277 17.2928 10.8814C15.6968 12.3311 14.222 13.4059 13.4447 13.1565C12.4394 12.8327 13.1985 10.1208 14.1807 7.64749C15.0661 7.78353 15.9184 7.25175 16.1895 6.39405C16.4607 5.53634 16.07 4.60799 15.2686 4.20584C14.4673 3.8037 13.4938 4.04745 12.9741 4.78039C12.4543 5.51333 12.543 6.5173 13.1831 7.14685C11.8766 9.52346 10.5173 11.5811 9.32439 11.2332L9.28205 11.2235C8.08241 10.8369 8.16225 8.35786 8.47491 5.64395C9.36375 5.52021 10.0306 4.76475 10.0466 3.86339C10.0626 2.96203 9.42304 2.18314 8.53916 2.02763C7.65528 1.87211 6.79028 2.38627 6.50043 3.23945C6.21059 4.09264 6.5822 5.03081 7.37629 5.45065C6.74424 8.03602 5.7928 10.6862 4.78748 10.3624C4.01786 10.114 3.44064 8.38976 2.97983 6.2886C3.67248 5.90286 4.00023 5.08143 3.76456 4.32185C3.52889 3.56227 2.79462 3.07342 2.00649 3.15138C1.21835 3.22935 0.593095 3.8527 0.509422 4.64387C0.425749 5.43504 0.906678 6.17647 1.66091 6.41908C1.72408 6.43936 1.78831 6.45613 1.85331 6.46933L2.14961 13.517L13.7622 17.2632L18.0913 11.6913C18.1595 11.7242 18.2299 11.7523 18.302 11.7754C18.8723 11.9663 19.5008 11.8345 19.9475 11.4303C20.3942 11.0262 20.5902 10.412 20.4608 9.82217C20.3313 9.23239 19.8962 8.75803 19.3217 8.58016L19.3198 8.58113Z",
+    fill: "currentColor"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_14338_6034"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 20,
+    height: 20,
+    fill: "currentColor",
+    transform: "translate(0.5)"
+  })))));
+};
+export default SvgFunkoCrown;

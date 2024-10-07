@@ -1,0 +1,45 @@
+[role='tooltip'] {
+  &.lock-transfer-tooltip-content {
+    width: 276px !important;
+    padding: 12px;
+    box-shadow: 0px 10px 20px rgba(0, 0, 0, 0.04),
+      0px 2px 6px rgba(0, 0, 0, 0.04), 0px 0px 1px rgba(0, 0, 0, 0.04);
+    border-radius: 8px;
+    border: 0;
+    @apply bg-gray-900;
+
+    .popup-arrow {
+    }
+  }
+
+  &.inventory-filter-tooltip-content {
+    width: 310px !important;
+    padding: 32px;
+    border-radius: 8px;
+    border: 0;
+
+    @apply bg-gray-850;
+
+    .popup-arrow {
+      display: none;
+    }
+  }
+
+  &.lock-profile-media-tooltip-content {
+    @apply bg-gray-850 p-2 rounded-3xl border border-defaultBorder;
+    width: 220px !important;
+    box-shadow: 0px 2px 27px rgba(0, 0, 0, 0.5);
+
+    .popup-arrow {
+      @apply hidden;
+    }
+  }
+
+  &.mp-value-disclaimer-tooltip-content {
+    @apply max-md:transform max-md:left-2 #{!important};
+
+    &.positionToBottom-content {
+      @apply max-md:translate-y-full;
+    }
+  }
+}

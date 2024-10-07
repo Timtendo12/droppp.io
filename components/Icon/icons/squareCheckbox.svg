@@ -1,0 +1,27 @@
+var _path, _rect;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgSquareCheckbox = function SvgSquareCheckbox(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 21,
+    height: 20,
+    viewBox: "0 0 21 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M7.86401 11L9.86401 13L15.364 7",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 2.61401,
+    y: 1.75,
+    width: 16.5,
+    height: 16.5,
+    rx: 3.25,
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })));
+};
+export default SvgSquareCheckbox;

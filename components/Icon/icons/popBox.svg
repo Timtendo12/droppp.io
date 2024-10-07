@@ -1,0 +1,33 @@
+var _path, _path2, _path3, _path4;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgPopBox = function SvgPopBox(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 23,
+    height: 30,
+    viewBox: "0 0 23 30",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M6.25 15.4995V2.49951C6.25 1.94723 6.69772 1.49951 7.25 1.49951H15.75C16.3023 1.49951 16.75 1.94723 16.75 2.49951V15.4995C16.75 16.0518 16.3023 16.4995 15.75 16.4995H7.25C6.69772 16.4995 6.25 16.0518 6.25 15.4995Z",
+    stroke: "white",
+    strokeWidth: 1.5,
+    strokeLinejoin: "round"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M20.3275 21.8756C20.7811 22.2485 21.0804 22.641 21.0804 23.0832C21.0804 23.6094 20.6734 24.0609 20.0675 24.4877C18.863 25.3369 16.8776 25.9677 14.51 26.2649C14.0853 26.3188 13.7829 26.7071 13.8368 27.1328C13.8906 27.5585 14.279 27.8599 14.7047 27.806C17.3768 27.4705 19.6035 26.7154 20.9624 25.7574C22.0664 24.9796 22.634 24.0402 22.634 23.0832C22.634 22.2298 22.1897 21.3961 21.3155 20.6763C20.9841 20.4039 20.4942 20.4515 20.2218 20.783C19.9495 21.1134 19.9971 21.6032 20.3275 21.8756Z",
+    fill: "white"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M10.9971 26.4441C7.8652 26.3819 5.11128 25.7543 3.4117 24.7901C2.52515 24.2878 1.91927 23.7451 1.91927 23.0832C1.91927 22.641 2.21858 22.2485 2.67222 21.8756C3.0026 21.6032 3.05025 21.1134 2.77786 20.783C2.50547 20.4515 2.01559 20.4039 1.68416 20.6763C0.810036 21.3961 0.365723 22.2298 0.365723 23.0832C0.365723 24.1956 1.15389 25.2955 2.64529 26.1417C4.51161 27.2001 7.52652 27.9293 10.9661 27.9976C11.3948 28.0059 11.7501 27.6641 11.7584 27.2364C11.7667 26.8076 11.4259 26.4524 10.9971 26.4441Z",
+    fill: "white"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M8.98441 25.6012L10.4002 27.2221L8.78038 28.6389C8.45724 28.9206 8.4241 29.4115 8.70685 29.7347C8.98855 30.0578 9.47948 30.0899 9.80261 29.8082L12.0076 27.8797C12.3307 27.598 12.3639 27.1071 12.0811 26.784L10.1537 24.579C9.87097 24.2558 9.38005 24.2227 9.05795 24.5054C8.73481 24.7871 8.70167 25.2781 8.98441 25.6012Z",
+    fill: "white"
+  })));
+};
+export default SvgPopBox;

@@ -1,0 +1,29 @@
+var _path, _rect;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCopy = function SvgCopy(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 25,
+    height: 25,
+    viewBox: "0 0 25 25",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M5.89961 8.90039H4.59961C4.32347 8.90039 4.09961 9.12425 4.09961 9.40039V21.0004C4.09961 21.2765 4.32347 21.5004 4.59961 21.5004H15.5996C15.8758 21.5004 16.0996 21.2765 16.0996 21.0004V19.1004",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 8.44922,
+    y: 3.65039,
+    width: 12.9,
+    height: 12.9,
+    rx: 1.25,
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinecap: "round",
+    strokeLinejoin: "round"
+  })));
+};
+export default SvgCopy;

@@ -1,0 +1,33 @@
+var _path, _path2, _path3, _path4;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgGoogle = function SvgGoogle(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M19.5998 10.2272C19.5998 9.51813 19.5361 8.83631 19.4179 8.18176H9.99976V12.0499H15.3816C15.1498 13.2999 14.4452 14.359 13.3861 15.0681V17.5772H16.6179C18.5088 15.8363 19.5998 13.2727 19.5998 10.2272Z",
+    fill: "#4285F4"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M9.9996 20C12.6996 20 14.9632 19.1046 16.6178 17.5773L13.386 15.0682C12.4905 15.6682 11.3451 16.0228 9.9996 16.0228C7.39505 16.0228 5.19051 14.2637 4.40414 11.9H1.06323V14.4909C2.70869 17.7591 6.09051 20 9.9996 20Z",
+    fill: "#34A853"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M4.40455 11.8999C4.20455 11.2999 4.09091 10.659 4.09091 9.99994C4.09091 9.34085 4.20455 8.69994 4.40455 8.09994V5.50903H1.06364C0.386364 6.85903 0 8.38631 0 9.99994C0 11.6136 0.386364 13.1409 1.06364 14.4909L4.40455 11.8999Z",
+    fill: "#FBBC05"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M9.9996 3.97727C11.4678 3.97727 12.786 4.48182 13.8223 5.47273L16.6905 2.60455C14.9587 0.990909 12.6951 0 9.9996 0C6.09051 0 2.70869 2.24091 1.06323 5.50909L4.40414 8.1C5.19051 5.73636 7.39505 3.97727 9.9996 3.97727Z",
+    fill: "#EA4335"
+  })));
+};
+export default SvgGoogle;

@@ -1,0 +1,18 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgMetaverse = function SvgMetaverse(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 19,
+    height: 12,
+    viewBox: "0 0 19 12",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    clipRule: "evenodd",
+    d: "M14 1c1.012 0 1.93.41 2.593 1.074a3.655 3.655 0 0 1 1.074 2.593v3.451c0 .796-.323 1.516-.844 2.038a2.873 2.873 0 0 1-2.038.844h-2.812a2.237 2.237 0 0 0-.773-1.334A2.868 2.868 0 0 0 9.333 9c-.73 0-1.389.257-1.867.666A2.237 2.237 0 0 0 6.694 11H3.882a2.873 2.873 0 0 1-2.038-.844A2.873 2.873 0 0 1 1 8.118V4.667c0-1.013.41-1.93 1.074-2.593A3.655 3.655 0 0 1 4.667 1H14Z",
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })));
+};
+export default SvgMetaverse;

@@ -1,0 +1,21 @@
+var _path, _path2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgExclamation = function SvgExclamation(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 8,
+    height: 37,
+    viewBox: "0 0 8 37",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M8 32.6523C8 34.8615 6.20914 36.6523 4 36.6523C1.79086 36.6523 0 34.8615 0 32.6523C0 30.4432 1.79086 28.6523 4 28.6523C6.20914 28.6523 8 30.4432 8 32.6523Z",
+    fill: "currentColor"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M0.0110209 4.94588C-0.15972 2.62743 1.67525 0.652344 3.99999 0.652344C6.32881 0.652344 8.16521 2.63406 7.9882 4.95614L6.96531 21.8884C6.84633 23.4492 5.54414 24.6544 3.97879 24.6523C2.41345 24.6503 1.11437 23.4418 0.999401 21.8807L0.0110209 4.94588Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgExclamation;

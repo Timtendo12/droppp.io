@@ -1,0 +1,21 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  width: 100%;
+  padding: 12px;
+  border-radius: 20px;
+  text-align: left;
+
+  &:not(:first-child) {
+    margin-top: 2px;
+  }
+
+  &:hover {
+    @apply bg-gray-850;
+  }
+
+  &.active {
+    @apply bg-white/15;
+  }
+}

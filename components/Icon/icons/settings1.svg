@@ -1,0 +1,45 @@
+var _rect, _rect2, _rect3, _rect4;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgSettings1 = function SvgSettings1(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 24,
+    viewBox: "0 0 24 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 3.75,
+    y: 3.75,
+    width: 16.5,
+    height: 6.5,
+    rx: 3.25,
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 3.75,
+    y: 13.75,
+    width: 16.5,
+    height: 6.5,
+    rx: 3.25,
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })), _rect3 || (_rect3 = /*#__PURE__*/React.createElement("rect", {
+    x: 3.75,
+    y: 13.75,
+    width: 6.5,
+    height: 6.5,
+    rx: 3.25,
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })), _rect4 || (_rect4 = /*#__PURE__*/React.createElement("rect", {
+    x: 13.75,
+    y: 3.75,
+    width: 6.5,
+    height: 6.5,
+    rx: 3.25,
+    stroke: "currentColor",
+    strokeWidth: 1.5
+  })));
+};
+export default SvgSettings1;

@@ -1,0 +1,45 @@
+var _g, _rect, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgGenericCreditCard = function SvgGenericCreditCard(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 61,
+    height: 41,
+    fill: "none",
+    viewBox: "0 0 61 41"
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#a)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#575757",
+    d: "M60.989 5.117H.875V16.4h60.114V5.117z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M13.672 33.78a6 6 0 100-12 6 6 0 000 12z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#707070",
+    d: "M20.672 33.78a6 6 0 100-12 6 6 0 000 12z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#575757",
+    fillRule: "evenodd",
+    d: "M17.173 22.905a5.992 5.992 0 012.499 4.874 5.992 5.992 0 01-2.5 4.873 5.988 5.988 0 01-2.5-4.873 5.99 5.99 0 012.389-4.793l.112-.08z",
+    clipRule: "evenodd"
+  }))), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    width: 59,
+    height: 39,
+    x: 0.871,
+    y: 0.862,
+    stroke: "#575757",
+    rx: 9.5
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 60,
+    height: 40,
+    x: 0.371,
+    y: 0.362,
+    fill: "#fff",
+    rx: 10
+  })))));
+};
+export default SvgGenericCreditCard;

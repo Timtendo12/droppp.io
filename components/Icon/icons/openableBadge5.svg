@@ -1,0 +1,22 @@
+var _path, _path2, _path3;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgOpenableBadge5 = function SvgOpenableBadge5(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 97,
+    height: 97,
+    viewBox: "0 0 97 97",
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "#A3A3A3",
+    d: "M48.5 88.293c22.091 0 40-17.909 40-40 0-22.092-17.909-40-40-40s-40 17.908-40 40c0 22.091 17.909 40 40 40Z"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fill: "#171717",
+    d: "M48.836 83.977c19.76 0 35.796-16.025 35.796-35.797S68.607 12.384 48.835 12.384c-19.771 0-35.796 16.024-35.796 35.796s16.025 35.797 35.797 35.797Z"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M36.18 59.37h1.462v5.665H36.18V59.37ZM40.085 60.637H38.5V59.36h4.623v1.278h-1.575v4.388h-1.463v-4.388ZM43.992 59.37h4.153v1.226h-2.69v.941h2.628v1.238h-2.628v1.023h2.69v1.227h-4.153v-5.666.01ZM54.117 61.21l-1.432 3.825h-.645L50.62 61.21v3.825h-1.463V59.37h2.025l1.177 3.212 1.186-3.212h2.025v5.666h-1.463V61.21h.01ZM57.135 63.133a2.55 2.55 0 0 0 1.81.746c.502 0 .808-.214.808-.48 0-.327-.368-.45-.971-.573-.93-.184-2.24-.43-2.24-1.77 0-.95.808-1.769 2.26-1.769.91 0 1.698.276 2.301.788l-.797 1.043a2.626 2.626 0 0 0-1.596-.583c-.5 0-.675.194-.675.44 0 .297.348.399.972.521.93.195 2.22.471 2.22 1.75 0 1.135-.84 1.892-2.363 1.892-1.146 0-1.944-.358-2.516-.9l.767-1.095.02-.01ZM44.35 46.718c.961 1.237 2.188 1.984 3.528 1.984 1.545 0 2.434-1.135 2.434-2.536 0-1.504-.756-2.496-2.127-2.496-1.135 0-1.923.614-2.567 1.677l-4.45-.992V30.794h14.013v5.277h-7.947v4.214c.654-1.064 1.984-1.78 3.457-1.78 3.354 0 5.758 2.67 5.758 7.497s-3.079 8.049-8.151 8.049c-3.324 0-5.922-1.094-7.712-3.63l3.764-3.703Z"
+  })));
+};
+export default SvgOpenableBadge5;

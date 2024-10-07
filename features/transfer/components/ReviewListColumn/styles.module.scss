@@ -1,0 +1,6 @@
+.transferItems {
+  scrollbar-color: #333 transparent; /* make scrollbar transparent */
+  &::-webkit-scrollbar {
+    background-color: transparent; /* make scrollbar transparent */
+  }
+}

@@ -1,0 +1,20 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCollectionTracker = function SvgCollectionTracker(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 34,
+    viewBox: "0 0 32 34",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M23.5517 3.83525C22.9663 3.498 22.225 3.7063 21.8941 4.30427C21.5631 4.89941 21.7689 5.65608 22.353 5.99332C24.3708 7.15667 26.0452 8.86414 27.1967 10.9301C30.6998 17.2215 28.5275 25.2445 22.353 28.8139C16.1784 32.3847 8.30449 30.1714 4.8014 23.8799C1.49996 17.9527 3.24108 10.4923 8.616 6.66214L10.8202 10.6198C7.56465 13.1973 6.5592 17.8932 8.65354 21.6524C10.9523 25.7787 16.1159 27.2311 20.1669 24.8888C24.2165 22.5466 25.6419 17.2853 23.3431 13.1576C22.702 12.007 21.8371 11.0463 20.769 10.3024C20.2155 9.91696 19.459 10.0629 19.078 10.6269C18.6997 11.1922 18.8402 11.9631 19.395 12.3499C20.1543 12.8785 20.7704 13.5614 21.2266 14.3819C22.8634 17.3193 21.8482 21.0644 18.9653 22.7322C16.0825 24.3986 12.407 23.3656 10.7701 20.4282C9.34053 17.8606 9.93574 14.6752 12.0343 12.8005L14.9407 18.0179C15.2717 18.613 16.0143 18.8213 16.5998 18.4841C17.1839 18.1454 17.3883 17.3887 17.0573 16.7936L8.61044 1.62758C8.27946 1.03245 7.53684 0.824149 6.95137 1.16139C6.36729 1.50005 6.16286 2.25672 6.49384 2.85186L7.41585 4.50548C0.875554 9.01717 -1.27859 17.9881 2.68481 25.1042C6.84985 32.5831 16.2132 35.2159 23.5545 30.9706C30.8958 26.7267 33.4783 17.1861 29.3133 9.70724C27.9449 7.25019 25.9534 5.21964 23.5517 3.83525Z",
+    fill: "white",
+    stroke: "white",
+    strokeWidth: 0.8
+  })));
+};
+export default SvgCollectionTracker;

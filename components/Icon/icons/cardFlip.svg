@@ -1,0 +1,33 @@
+var _path, _path2, _path3, _path4;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCardFlip = function SvgCardFlip(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 32,
+    height: 32,
+    viewBox: "0 0 32 32",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M24.8277 19.876C25.2814 20.2488 25.5807 20.6414 25.5807 21.0836C25.5807 21.6097 25.1737 22.0613 24.5678 22.488C23.3633 23.3373 21.3778 23.968 19.0102 24.2653C18.5856 24.3191 18.2832 24.7075 18.337 25.1332C18.3909 25.5589 18.7793 25.8602 19.2049 25.8064C21.877 25.4708 24.1038 24.7158 25.4626 23.7578C26.5667 22.98 27.1342 22.0406 27.1342 21.0836C27.1342 20.2302 26.6899 19.3965 25.8158 18.6767C25.4844 18.4043 24.9945 18.4519 24.7221 18.7833C24.4497 19.1137 24.4973 19.6036 24.8277 19.876V19.876Z",
+    fill: "currentColor"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M15.4974 24.4443C12.3654 24.3822 9.61153 23.7546 7.91195 22.7903C7.02539 22.288 6.41951 21.7453 6.41951 21.0835C6.41951 20.6413 6.71883 20.2487 7.17246 19.8759C7.50285 19.6035 7.55049 19.1136 7.2781 18.7832C7.00571 18.4518 6.51583 18.4041 6.18441 18.6765C5.31028 19.3963 4.86597 20.2301 4.86597 21.0835C4.86597 22.1958 5.65413 23.2957 7.14553 24.1419C9.01186 25.2004 12.0268 25.9295 15.4663 25.9979C15.8951 26.0062 16.2503 25.6644 16.2586 25.2366C16.2669 24.8079 15.9262 24.4526 15.4974 24.4443V24.4443Z",
+    fill: "currentColor"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M13.4844 23.6014L14.9002 25.2223L13.2804 26.6391C12.9572 26.9208 12.9241 27.4118 13.2068 27.7349C13.4886 28.058 13.9795 28.0901 14.3026 27.8084L16.5076 25.88C16.8307 25.5983 16.8639 25.1073 16.5811 24.7842L14.6537 22.5792C14.371 22.2561 13.88 22.2229 13.5579 22.5057C13.2348 22.7874 13.2017 23.2783 13.4844 23.6014V23.6014Z",
+    fill: "currentColor"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M13.1511 17.2111V5.41352C13.1511 4.72357 13.8333 4.2409 14.4839 4.47053L19.7338 6.32343C20.1336 6.46453 20.401 6.84243 20.401 7.26641V15.865C20.401 16.3216 20.0917 16.7202 19.6494 16.8336L14.3995 18.1798C13.7669 18.342 13.1511 17.8642 13.1511 17.2111Z",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinejoin: "round"
+  })));
+};
+export default SvgCardFlip;

@@ -1,0 +1,16 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgDiscord = function SvgDiscord(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    fill: "none",
+    viewBox: "0 0 20 20",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M16.93 3.258A16.55 16.55 0 0 0 12.86 2a.062.062 0 0 0-.066.03c-.175.312-.37.718-.506 1.037a15.297 15.297 0 0 0-4.573 0A10.464 10.464 0 0 0 7.2 2.032.064.064 0 0 0 7.135 2a16.503 16.503 0 0 0-4.07 1.257.058.058 0 0 0-.028.023C.445 7.136-.266 10.896.083 14.61a.069.069 0 0 0 .026.046 16.616 16.616 0 0 0 4.994 2.513.065.065 0 0 0 .07-.023 11.79 11.79 0 0 0 1.022-1.654.063.063 0 0 0-.035-.088 10.954 10.954 0 0 1-1.56-.74.064.064 0 0 1-.006-.106 8.6 8.6 0 0 0 .31-.242.062.062 0 0 1 .064-.008c3.273 1.487 6.817 1.487 10.051 0a.062.062 0 0 1 .066.008c.1.082.205.164.31.242a.064.064 0 0 1-.005.106c-.499.29-1.017.535-1.561.74a.063.063 0 0 0-.034.088c.3.579.643 1.13 1.02 1.653a.064.064 0 0 0 .07.024 16.56 16.56 0 0 0 5.003-2.513.064.064 0 0 0 .026-.046c.417-4.293-.699-8.023-2.957-11.33a.05.05 0 0 0-.026-.023ZM6.553 12.345c-.946 0-1.724-.929-1.724-2.07 0-1.14.763-2.068 1.724-2.068.968 0 1.739.937 1.724 2.069 0 1.14-.764 2.069-1.724 2.069Zm6.896 0c-.945 0-1.724-.929-1.724-2.07 0-1.14.764-2.068 1.724-2.068.968 0 1.74.937 1.724 2.069 0 1.14-.756 2.069-1.724 2.069Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgDiscord;

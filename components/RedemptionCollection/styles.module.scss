@@ -1,0 +1,41 @@
+.container {
+  box-shadow: 0px 2px 24px rgba(9, 9, 9, 0.12);
+
+  .rewards {
+    display: inline-flex;
+    align-items: center;
+    @apply h-5 px-[11px] mt-2 text-gray-300 border border-gray-300 rounded-full;
+
+    &.active {
+      @apply relative text-white bg-redeemable;
+
+      &:after {
+        content: '';
+        position: absolute;
+        inset: -1px;
+        border-radius: inherit;
+        border-radius: inherit;
+        padding: 1px;
+        @apply bg-rainbow;
+        -webkit-mask: linear-gradient(#fff 0 0) content-box,
+          linear-gradient(#fff 0 0);
+        -webkit-mask-composite: xor;
+        mask-composite: exclude;
+      }
+    }
+  }
+
+  .preview {
+    min-width: 220px;
+    max-width: 200px;
+    min-height: 100%;
+    margin-left: auto;
+    overflow: hidden;
+
+    @media (max-width: 767px) {
+      min-width: 100%;
+      max-width: 100%;
+      margin-top: 16px;
+    }
+  }
+}

@@ -1,0 +1,56 @@
+.container {
+  .typeIcon {
+    margin-right: 15px;
+
+    img {
+      width: 30px;
+      height: 30px;
+    }
+  }
+
+  .title {
+    display: flex;
+    align-items: center;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 19px;
+  }
+
+  .message {
+    display: flex;
+    align-items: center;
+    margin-top: 4px;
+    font-size: 14px;
+    line-height: 17px;
+
+    &.noMargin {
+      margin: 0;
+    }
+  }
+
+  .btnAction {
+    display: inline-block;
+    padding: 6px 16px;
+    margin-top: 8px;
+    font-weight: 600;
+    font-size: 14px;
+    line-height: 20px;
+    border: 1px solid #ffffff;
+    box-sizing: border-box;
+    border-radius: 8px;
+  }
+}
+
+.btnClose {
+  position: absolute;
+  top: 17px;
+  right: 16px;
+  display: flex;
+
+  .iconClose {
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+  }
+}

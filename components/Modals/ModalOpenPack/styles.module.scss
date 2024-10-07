@@ -1,0 +1,58 @@
+.modalContainer {
+  width: 454px;
+  overflow: hidden;
+  border: none;
+}
+
+.container {
+  margin: -25px;
+  z-index: 5;
+
+  @media (max-width: 767px) {
+    margin: 0;
+  }
+
+  .hero {
+    max-width: 100%;
+  }
+
+  .content {
+    padding: 24px 24px 32px;
+
+    @media (max-width: 767px) {
+      padding: 32px;
+    }
+
+    .title {
+      font-weight: bold;
+      font-size: 24px;
+      line-height: 29px;
+    }
+
+    .description {
+      margin-top: 16px;
+      font-size: 16px;
+      line-height: 24px;
+      @apply text-gray-300;
+
+      @media (max-width: 767px) {
+        font-size: 14px;
+        line-height: 20px;
+      }
+
+      b {
+        color: black;
+      }
+
+      ol {
+        margin-block-start: 0;
+        padding-inline-start: 1em;
+
+        a {
+          text-decoration: none;
+          @apply text-blue;
+        }
+      }
+    }
+  }
+}

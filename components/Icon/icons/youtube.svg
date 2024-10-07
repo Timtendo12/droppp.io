@@ -1,0 +1,16 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgYoutube = function SvgYoutube(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 24,
+    height: 18,
+    viewBox: "0 0 24 18",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M9.54541 12.9684V5.83138L15.8182 9.39998L9.54541 12.9684ZM23.4985 3.58568C23.2224 2.54639 22.4091 1.7279 21.3766 1.45013C19.505 0.945312 11.9999 0.945312 11.9999 0.945312C11.9999 0.945312 4.49498 0.945312 2.62339 1.45013C1.59085 1.7279 0.777578 2.54639 0.501545 3.58568C0 5.46944 0 9.39988 0 9.39988C0 9.39988 0 13.3301 0.501545 15.214C0.777578 16.2534 1.59075 17.0718 2.62339 17.3497C4.49498 17.8543 11.9999 17.8543 11.9999 17.8543C11.9999 17.8543 19.505 17.8543 21.3766 17.3497C22.4091 17.0718 23.2224 16.2534 23.4985 15.214C24 13.3301 24 9.39978 24 9.39978C24 9.39978 24 5.46944 23.4985 3.58568Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgYoutube;

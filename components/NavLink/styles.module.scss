@@ -1,0 +1,48 @@
+.container {
+  position: relative;
+  display: inline-flex;
+  align-items: center;
+  justify-content: center;
+  border-radius: 4px;
+
+  &.dropdownItem {
+    width: 100%;
+    justify-content: flex-start;
+    margin-left: 12px;
+
+    &:hover .content::before {
+      background: rgba(255, 255, 255, 0.48);
+    }
+  }
+
+  .content {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 8px 0;
+
+    &::before {
+      content: '';
+      position: absolute;
+      bottom: 3px;
+      left: 0;
+      right: 0;
+      height: 3px;
+      border-radius: 1.5px;
+    }
+  }
+
+  &:hover .content::before {
+    background: rgba(255, 255, 255, 0.24);
+  }
+
+  &.active .content::before {
+    background: linear-gradient(
+      269.11deg,
+      #ffda4a -3.22%,
+      #ff00db 55.46%,
+      #2577f1 114.05%
+    ) !important;
+  }
+}

@@ -1,0 +1,16 @@
+@import '../../styles/animation.scss';
+
+.container {
+  position: absolute;
+  width: 18px;
+  height: 18px;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+  margin: auto;
+  border: 3px solid transparent;
+  border-radius: 50%;
+  animation: rotator 1s ease infinite;
+  @apply border-t-gray-300;
+}

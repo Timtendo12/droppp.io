@@ -1,0 +1,115 @@
+.container {
+  @apply border-t border-defaultBorder;
+
+  .header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 100%;
+    padding: 24px 0;
+
+    &.disabled {
+      pointer-events: none;
+    }
+
+    .progress {
+      display: flex;
+      align-items: center;
+
+      .total {
+        margin-right: 8px;
+        font-weight: 400;
+        font-size: 14px;
+      }
+
+      .totalProgress {
+        position: relative;
+        flex-shrink: 0;
+        width: 100px;
+        height: 6px;
+        background: rgba(white, 0.15);
+        border-radius: 20px;
+
+        &.posted {
+          @apply bg-gray-100;
+
+          .activeProgress {
+            @apply bg-gray-300;
+          }
+        }
+
+        .activeProgress {
+          position: absolute;
+          top: 0;
+          left: 0;
+          bottom: 0;
+          animation: move 2s linear infinite;
+          border-radius: 20px;
+          overflow: hidden;
+
+          &.Common {
+            @apply bg-rarity-common;
+          }
+          &.Uncommon {
+            @apply bg-rarity-uncommon;
+          }
+          &.Rare {
+            @apply bg-rarity-rare;
+          }
+          &.Epic {
+            @apply bg-rarity-epic;
+          }
+          &.Legendary {
+            @apply bg-rarity-legendary;
+          }
+          &.Grail {
+            @apply bg-rarity-grail;
+          }
+          &.Series {
+            @apply bg-rarity-common;
+          }
+        }
+      }
+
+      .expandIcon {
+        margin-left: 8px;
+        transition: all ease 0.5s;
+
+        &.open {
+          transform: rotate(180deg);
+        }
+      }
+    }
+  }
+
+  .collapse {
+    transition: height 500ms;
+
+    .content {
+      display: grid;
+      grid-gap: 16px;
+      grid-template-columns: repeat(3, minmax(0, 1fr));
+      padding-bottom: 24px;
+
+      @media (min-width: 768px) {
+        grid-template-columns: repeat(6, minmax(0, 1fr));
+      }
+
+      @media (min-width: 1024px) {
+        grid-template-columns: repeat(8, minmax(0, 1fr));
+      }
+
+      @media (min-width: 1440px) {
+        grid-template-columns: repeat(10, minmax(0, 1fr));
+      }
+
+      @media (min-width: 1728px) {
+        grid-template-columns: repeat(12, minmax(0, 1fr));
+      }
+
+      @media (min-width: 2560px) {
+        grid-template-columns: repeat(15, minmax(0, 1fr));
+      }
+    }
+  }
+}

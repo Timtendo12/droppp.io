@@ -1,0 +1,16 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCoinbase = function SvgCoinbase(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 33,
+    height: 33,
+    viewBox: "0 0 33 33",
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "#3773F5",
+    d: "M16.53 24.75c-4.42 0-8-3.58-8-8s3.58-8 8-8c3.96 0 7.247 2.887 7.88 6.667h8.06C31.79 7.203 24.917.75 16.53.75c-8.833 0-16 7.167-16 16s7.167 16 16 16c8.387 0 15.26-6.453 15.94-14.667h-8.06c-.633 3.78-3.92 6.667-7.88 6.667Z"
+  })));
+};
+export default SvgCoinbase;

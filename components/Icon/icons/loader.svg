@@ -1,0 +1,24 @@
+var _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgLoader = function SvgLoader(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_1506_30007)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M10 19C10 19.5523 9.55118 20.0052 9.00165 19.95C7.58638 19.808 6.21365 19.3653 4.9771 18.647C3.45147 17.7608 2.18747 16.4867 1.3134 14.9541C0.439332 13.4215 -0.013692 11.6849 0.000315146 9.92061C0.0143223 8.15632 0.494862 6.42715 1.39316 4.90861C2.29145 3.39007 3.57552 2.13622 5.11503 1.27435C6.65453 0.412471 8.39466 -0.0267528 10.1588 0.00126056C11.9229 0.0292739 13.6482 0.523527 15.1596 1.43385C16.3845 2.17168 17.4336 3.16156 18.2396 4.33354C18.5526 4.7886 18.3718 5.40005 17.8877 5.66601C17.4037 5.93196 16.8005 5.75056 16.4763 5.30347C15.848 4.4371 15.0502 3.70275 14.1276 3.14708C12.9186 2.41882 11.5383 2.02342 10.127 2.00101C8.71572 1.9786 7.32362 2.32998 6.09202 3.01948C4.86042 3.70898 3.83316 4.71205 3.11453 5.92689C2.39589 7.14172 2.01146 8.52506 2.00025 9.93649C1.98905 11.3479 2.35147 12.7372 3.05072 13.9633C3.74998 15.1894 4.76118 16.2086 5.98168 16.9176C6.91293 17.4585 7.94073 17.8042 9.00258 17.9376C9.55056 18.0064 10 18.4477 10 19Z",
+    fill: "currentColor"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_1506_30007"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 20,
+    height: 20,
+    fill: "currentColor"
+  })))));
+};
+export default SvgLoader;

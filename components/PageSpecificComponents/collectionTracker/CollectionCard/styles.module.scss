@@ -1,0 +1,33 @@
+.cardWrapper {
+  position: relative;
+  width: 100%;
+  padding-top: 135%;
+  box-sizing: border-box;
+  border-radius: 8px;
+  overflow: hidden;
+  @apply border border-gray-800;
+
+  &.needCollected {
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      left: 0;
+      right: 0;
+      bottom: 0;
+      background: rgba(0, 0, 0, 0.75);
+      border-radius: 8px;
+    }
+  }
+
+  .loadingIndicator {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+  }
+}

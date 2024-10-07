@@ -1,0 +1,38 @@
+var _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgEthereum = function SvgEthereum(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 16,
+    height: 25,
+    viewBox: "0 0 16 25",
+    fill: "none"
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#a)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#A3A3A3",
+    d: "m7.865.5-.16.547v15.87l.16.16 7.365-4.355L7.865.5Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M7.865.5.5 12.723l7.365 4.354V.5Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#A3A3A3",
+    d: "m7.865 18.471-.09.111v5.653l.09.265 7.37-10.38-7.37 4.351Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M7.865 24.5V18.47L.5 14.12 7.865 24.5Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#3D3D3D",
+    d: "m7.865 17.077 7.365-4.355-7.365-3.348v7.703Z"
+  }), /*#__PURE__*/React.createElement("path", {
+    fill: "#8A8A8A",
+    d: "m.5 12.723 7.365 4.354V9.374L.5 12.722Z"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "a"
+  }, /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M.5.5h14.735v24H.5z"
+  })))));
+};
+export default SvgEthereum;

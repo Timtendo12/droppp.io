@@ -1,0 +1,61 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  height: 100%;
+  margin-left: 32px;
+  cursor: pointer;
+  z-index: 100;
+  @apply utility-alt;
+
+  .trigger {
+    width: 100%;
+    display: flex;
+    align-items: center;
+
+    .iconArrow {
+      margin-left: 0px;
+      pointer-events: none;
+      transition: transform 300ms;
+
+      &.open {
+        transform: rotate(180deg);
+      }
+    }
+  }
+
+  .content {
+    position: absolute;
+    top: 53px;
+    right: -8px;
+    min-width: 228px;
+    padding: 0 16px;
+    z-index: 2;
+    opacity: 0;
+    height: 0;
+    transition: height 0.25s ease-in-out;
+    @apply md:overflow-hidden overflow-scroll md:bg-gray-850 bg-gray-900 md:border-1 border-t-1 border-gray-800 rounded-3xl shadow-darkMenu;
+
+    @media (max-width: 768px) {
+      position: fixed;
+      top: 64px;
+      left: 0;
+      right: 0;
+      height: 0;
+      height: 0;
+      padding: 0 24px;
+    }
+
+    &.open {
+      height: auto;
+      padding: 8px 16px;
+      opacity: 1;
+
+      @media (max-width: 768px) {
+        height: calc(var(--height) - 64px);
+        padding: 24px;
+        @apply rounded-none;
+      }
+    }
+  }
+}

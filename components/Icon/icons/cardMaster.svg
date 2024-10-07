@@ -1,0 +1,39 @@
+var _rect, _g, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCardMaster = function SvgCardMaster(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 40,
+    height: 24,
+    viewBox: "0 0 40 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 39,
+    height: 23,
+    rx: 5.5,
+    stroke: "white",
+    strokeOpacity: 0.15
+  })), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_4769_37350)"
+  }, /*#__PURE__*/React.createElement("path", {
+    d: "M22.7038 7.28333H17.2961V16.7167H22.7038V7.28333Z",
+    fill: "#BDBDBD"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M17.6395 12.0001C17.6395 10.0834 18.5665 8.38344 19.9914 7.28344C18.9442 6.48344 17.6223 6.0001 16.1803 6.0001C12.7639 6.0001 10 8.68343 10 12.0001C10 15.3168 12.7639 18.0001 16.1803 18.0001C17.6223 18.0001 18.9442 17.5168 19.9914 16.7168C18.5665 15.6334 17.6395 13.9168 17.6395 12.0001Z",
+    fill: "white"
+  }), /*#__PURE__*/React.createElement("path", {
+    d: "M29.9997 12C29.9997 15.3167 27.2358 18 23.8195 18C22.3774 18 21.0556 17.5167 20.0084 16.7167C21.4504 15.6167 22.3603 13.9167 22.3603 12C22.3603 10.0833 21.4332 8.38333 20.0084 7.28334C21.0556 6.48334 22.3774 6 23.8195 6C27.2358 6 29.9997 8.7 29.9997 12Z",
+    fill: "#707070"
+  }))), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_4769_37350"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 20,
+    height: 12,
+    fill: "white",
+    transform: "translate(10 6)"
+  })))));
+};
+export default SvgCardMaster;

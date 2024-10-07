@@ -1,0 +1,51 @@
+.container {
+  @apply border-t border-defaultBorder;
+
+  &:first-child {
+    border: none;
+
+    .rarityGroup {
+      padding-top: 0;
+    }
+  }
+
+  .rarityGroup {
+    padding: 24px 0;
+
+    .cardGroup {
+      margin-top: 24px;
+
+      .cardName {
+        font-size: 16px;
+        font-weight: 600;
+      }
+    }
+  }
+
+  .collapse {
+    display: grid;
+    grid-gap: 16px;
+    grid-template-columns: repeat(4, minmax(0, 1fr));
+    margin-top: 16px;
+
+    @media (min-width: 768px) {
+      grid-template-columns: repeat(6, minmax(0, 1fr));
+    }
+
+    @media (min-width: 1024px) {
+      grid-template-columns: repeat(8, minmax(0, 1fr));
+    }
+
+    @media (min-width: 1440px) {
+      grid-template-columns: repeat(10, minmax(0, 1fr));
+    }
+
+    @media (min-width: 1728px) {
+      grid-template-columns: repeat(12, minmax(0, 1fr));
+    }
+
+    @media (min-width: 2560px) {
+      grid-template-columns: repeat(15, minmax(0, 1fr));
+    }
+  }
+}

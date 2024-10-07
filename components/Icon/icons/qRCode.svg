@@ -1,0 +1,18 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgQRCode = function SvgQRCode(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M10.6157 9.38459H11.8464V4.46153H10.6157V9.38459ZM2.00009 2H9.38424V9.38459H2.00009V2ZM3.23083 3.23076L3.23081 8.15384H8.15386L8.15389 3.23076H3.23083ZM10.6158 3.23079H13.0774V2H10.6156L10.6158 3.23079ZM16.7692 6.92308H18V5.69229H16.7692V6.92308ZM14.3077 9.38461H18V8.15382H14.3077V9.38461ZM18 18H10.6154V10.6154L18 10.6155V18ZM16.7692 11.8461H11.8461V16.7692H16.7694L16.7692 11.8461ZM2 10.6154H9.38415V18H2V10.6154ZM3.23072 16.7692H8.15378V11.8462H3.23072V16.7692ZM16.7691 3.23083H14.3076V2.00004H17.9999V4.46157H16.7691L16.7691 3.23083ZM13.0768 6.92312V4.46159H15.5384V5.69238H14.3076L14.3077 6.9231L13.0768 6.92312ZM4.46149 15.5385H6.92301V13.0769H4.46149V15.5385Z",
+    fill: "currentColor"
+  })));
+};
+export default SvgQRCode;

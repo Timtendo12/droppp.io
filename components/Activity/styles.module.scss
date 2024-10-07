@@ -1,0 +1,30 @@
+.activity {
+  -webkit-tap-highlight-color: transparent;
+
+  @apply w-full;
+
+  &:not(:first-child) {
+    @apply border-t border-defaultBorder;
+  }
+
+  &:hover,
+  &.active {
+    @apply border-transparent;
+
+    & + button {
+      @apply border-transparent;
+    }
+  }
+
+  &:hover .content {
+    @apply bg-gray-850;
+  }
+
+  &.active .content {
+    @apply bg-white/15;
+  }
+
+  .content {
+    @apply md:rounded-3xl relative flex items-center w-full gap-1 p-2 md:p-3 my-[1px];
+  }
+}

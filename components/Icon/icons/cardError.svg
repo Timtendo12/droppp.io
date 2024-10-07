@@ -1,0 +1,47 @@
+var _path, _path2, _path3, _path4, _rect, _path5, _path6, _rect2;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCardError = function SvgCardError(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 40,
+    height: 24,
+    viewBox: "0 0 40 24",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M11 16H8C7.44772 16 7 16.4477 7 17C7 17.5523 7.44772 18 8 18H11C11.5523 18 12 17.5523 12 17C12 16.4477 11.5523 16 11 16Z",
+    fill: "#FF3D3D"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    d: "M18 16H15C14.4477 16 14 16.4477 14 17C14 17.5523 14.4477 18 15 18H18C18.5523 18 19 17.5523 19 17C19 16.4477 18.5523 16 18 16Z",
+    fill: "#FF3D3D"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    d: "M25 16H22C21.4477 16 21 16.4477 21 17C21 17.5523 21.4477 18 22 18H25C25.5523 18 26 17.5523 26 17C26 16.4477 25.5523 16 25 16Z",
+    fill: "#FF3D3D"
+  })), _path4 || (_path4 = /*#__PURE__*/React.createElement("path", {
+    d: "M32 16H29C28.4477 16 28 16.4477 28 17C28 17.5523 28.4477 18 29 18H32C32.5523 18 33 17.5523 33 17C33 16.4477 32.5523 16 32 16Z",
+    fill: "#FF3D3D"
+  })), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 6,
+    y: 4,
+    width: 8,
+    height: 8,
+    rx: 4,
+    fill: "#FF3D3D"
+  })), _path5 || (_path5 = /*#__PURE__*/React.createElement("path", {
+    d: "M10.5333 9.80788C10.5333 10.1352 10.268 10.4005 9.94074 10.4005C9.61346 10.4005 9.34814 10.1352 9.34814 9.80788C9.34814 9.4806 9.61346 9.21529 9.94074 9.21529C10.268 9.21529 10.5333 9.4806 10.5333 9.80788Z",
+    fill: "white"
+  })), _path6 || (_path6 = /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M9.34978 5.70322C9.32448 5.35974 9.59633 5.06714 9.94074 5.06714C10.2857 5.06714 10.5578 5.36073 10.5316 5.70474L10.38 8.21322C10.3624 8.44445 10.1695 8.62299 9.9376 8.62269C9.70569 8.6224 9.51324 8.44336 9.4962 8.21208L9.34978 5.70322Z",
+    fill: "white"
+  })), _rect2 || (_rect2 = /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 39,
+    height: 23,
+    rx: 5.5,
+    stroke: "#FF3D3D"
+  })));
+};
+export default SvgCardError;

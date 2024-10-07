@@ -1,0 +1,18 @@
+var _path;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgFilter2 = function SvgFilter2(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 20,
+    height: 20,
+    viewBox: "0 0 20 20",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    d: "M11.776 9.99889L11.7497 17.0024C11.7847 17.269 11.6972 17.5534 11.496 17.74C11.1548 18.0867 10.6037 18.0867 10.2625 17.74L8.504 15.9536C8.30278 15.7492 8.21529 15.4737 8.25029 15.2159V9.99889H8.22404L3.18488 3.4398C2.88743 3.05763 2.95741 2.49771 3.3336 2.19553C3.49982 2.0711 3.68354 2 3.87601 2H16.124C16.3165 2 16.5002 2.0711 16.6664 2.19553C17.0426 2.49771 17.1126 3.05763 16.8151 3.4398L11.776 9.99889Z",
+    stroke: "currentColor",
+    strokeWidth: 1.5,
+    strokeLinejoin: "round"
+  })));
+};
+export default SvgFilter2;

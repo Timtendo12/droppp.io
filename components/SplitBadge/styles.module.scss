@@ -1,0 +1,10 @@
+.item {
+  @apply relative px-1 border;
+
+  &:first-child {
+    @apply rounded-l-full;
+  }
+  &:last-child {
+    @apply rounded-r-full;
+  }
+}

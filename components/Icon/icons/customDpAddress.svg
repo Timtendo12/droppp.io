@@ -1,0 +1,49 @@
+var _g, _rect, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgCustomDpAddress = function SvgCustomDpAddress(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    width: 42,
+    height: 42,
+    viewBox: "0 0 42 42",
+    fill: "none",
+    xmlns: "http://www.w3.org/2000/svg"
+  }, props), _g || (_g = /*#__PURE__*/React.createElement("g", {
+    clipPath: "url(#clip0_7974_9037)"
+  }, /*#__PURE__*/React.createElement("path", {
+    fillRule: "evenodd",
+    clipRule: "evenodd",
+    d: "M33.0048 22.3981C32.4002 25.06 29.9555 26.8348 27.3164 26.6889L29.7116 16.0632C30.7571 16.4887 31.6447 17.2215 32.2675 18.192C33.0736 19.4486 33.3355 20.9424 33.0048 22.3981ZM23.6554 31.3919C23.1363 31.7195 22.5206 31.8253 21.9216 31.689C20.6879 31.4088 19.9113 30.177 20.1907 28.9432L22.2022 20.0553C22.7935 17.4514 25.1105 15.6543 27.6422 15.6543C27.7252 15.6543 27.8086 15.6567 27.892 15.6607L24.67 29.9549C24.5349 30.5538 24.1747 31.0641 23.6554 31.3919ZM14.1006 26.6949L17.3228 12.4004C17.4578 11.8017 17.8181 11.2913 18.3373 10.9636C18.8567 10.6359 19.4724 10.5303 20.0713 10.6665C21.305 10.9466 22.0814 12.1785 21.8022 13.4123L19.7907 22.3001C19.1801 24.9893 16.7289 26.8183 14.1006 26.6949ZM9.73621 24.1617C8.93007 22.9053 8.66815 21.4115 8.99885 19.9557C9.60326 17.2938 12.0479 15.519 14.6871 15.6648L12.292 26.2906C11.2465 25.8652 10.3587 25.1322 9.73621 24.1617ZM33.8284 17.1889C32.7514 15.5101 31.0821 14.36 29.1282 13.9503C27.0295 13.51 24.9308 14.0404 23.296 15.2364L23.6162 13.8214C24.1213 11.5896 22.7168 9.36153 20.4853 8.85472C19.4021 8.60868 18.2882 8.79952 17.349 9.39227C16.4096 9.98502 15.758 10.9081 15.5139 11.9914L15.0986 13.8332C11.4563 13.4756 8.0181 15.8834 7.18635 19.5449C6.74448 21.4899 7.09452 23.4859 8.17167 25.1651C9.24857 26.8439 10.9178 27.9941 12.8718 28.4037C13.3663 28.5074 13.8607 28.5573 14.3491 28.5573C15.9334 28.5573 17.4541 28.0328 18.7037 27.119L18.3837 28.5324C17.8787 30.7643 19.2832 32.9925 21.5148 33.4995C21.8232 33.5694 22.134 33.604 22.4427 33.604C23.218 33.604 23.9792 33.3856 24.6509 32.9617C25.5902 32.3689 26.242 31.4458 26.4862 30.3625L26.9014 28.5209C30.546 28.8787 33.9821 26.4706 34.8137 22.8092C35.2555 20.864 34.9055 18.868 33.8284 17.1889Z",
+    fill: "url(#paint0_linear_7974_9037)"
+  }))), _rect || (_rect = /*#__PURE__*/React.createElement("rect", {
+    x: 0.5,
+    y: 0.5,
+    width: 41,
+    height: 41,
+    rx: 13.5,
+    stroke: "#3D3D3D"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "paint0_linear_7974_9037",
+    x1: 35,
+    y1: 8.75,
+    x2: 15.9689,
+    y2: 40.164,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFDA4A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.500382,
+    stopColor: "#FF00DB"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#2577F1"
+  })), /*#__PURE__*/React.createElement("clipPath", {
+    id: "clip0_7974_9037"
+  }, /*#__PURE__*/React.createElement("rect", {
+    width: 42,
+    height: 42,
+    rx: 14,
+    fill: "white"
+  })))));
+};
+export default SvgCustomDpAddress;

@@ -1,0 +1,37 @@
+var _path, _path2, _path3, _defs;
+function _extends() { _extends = Object.assign ? Object.assign.bind() : function (target) { for (var i = 1; i < arguments.length; i++) { var source = arguments[i]; for (var key in source) { if (Object.prototype.hasOwnProperty.call(source, key)) { target[key] = source[key]; } } } return target; }; return _extends.apply(this, arguments); }
+import * as React from "react";
+var SvgOpenableBadge17 = function SvgOpenableBadge17(props) {
+  return /*#__PURE__*/React.createElement("svg", _extends({
+    xmlns: "http://www.w3.org/2000/svg",
+    width: 97,
+    height: 97,
+    viewBox: "0 0 97 97",
+    fill: "none"
+  }, props), _path || (_path = /*#__PURE__*/React.createElement("path", {
+    fill: "url(#rainbowOutlineGradient)",
+    d: "M48.5 88.293c22.091 0 40-17.909 40-40 0-22.092-17.909-40-40-40s-40 17.908-40 40c0 22.091 17.909 40 40 40Z"
+  })), _path2 || (_path2 = /*#__PURE__*/React.createElement("path", {
+    fill: "#171717",
+    d: "M48.836 83.977c19.76 0 35.796-16.025 35.796-35.797S68.607 12.384 48.835 12.384c-19.771 0-35.796 16.024-35.796 35.796s16.025 35.797 35.797 35.797Z"
+  })), _path3 || (_path3 = /*#__PURE__*/React.createElement("path", {
+    fill: "#fff",
+    d: "M36.34 59.513h1.462v5.666H36.34v-5.666ZM40.245 60.78H38.66v-1.278h4.623v1.279h-1.575v4.387h-1.463v-4.387ZM44.152 59.512h4.153v1.228h-2.69v.94h2.628v1.238h-2.628v1.023h2.69v1.227h-4.153v-5.666.01ZM54.28 61.353l-1.431 3.825h-.644l-1.422-3.825v3.825H49.32v-5.665h2.025l1.177 3.21 1.186-3.21h2.025v5.666H54.27v-3.826h.01ZM57.295 63.276a2.55 2.55 0 0 0 1.81.747c.502 0 .809-.215.809-.48 0-.328-.369-.45-.972-.574-.93-.184-2.24-.43-2.24-1.769 0-.951.808-1.77 2.26-1.77.91 0 1.698.277 2.302.788l-.798 1.043a2.627 2.627 0 0 0-1.596-.583c-.5 0-.675.195-.675.44 0 .297.348.4.972.522.93.194 2.22.47 2.22 1.749 0 1.135-.84 1.892-2.363 1.892-1.146 0-1.943-.358-2.516-.9l.767-1.095.02-.01ZM40.236 53.796V38.659l-2.915 2.976-3.426-3.56 7.19-7.128h5.205v22.849h-6.065.01ZM50.072 53.796l5.921-17.571H48.18v-5.278h14.492v4.183l-6.167 18.666h-6.443.01Z"
+  })), _defs || (_defs = /*#__PURE__*/React.createElement("defs", null, /*#__PURE__*/React.createElement("linearGradient", {
+    id: "rainbowOutlineGradient",
+    x1: 91.743,
+    x2: -3.519,
+    y1: 48.293,
+    y2: 49.778,
+    gradientUnits: "userSpaceOnUse"
+  }, /*#__PURE__*/React.createElement("stop", {
+    stopColor: "#FFDA4A"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 0.5,
+    stopColor: "#FF00DB"
+  }), /*#__PURE__*/React.createElement("stop", {
+    offset: 1,
+    stopColor: "#2577F1"
+  })))));
+};
+export default SvgOpenableBadge17;

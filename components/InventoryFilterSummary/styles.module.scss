@@ -1,0 +1,37 @@
+.container {
+  position: relative;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  width: 100%;
+  padding: 12px 16px;
+  margin-top: 16px;
+  @apply bg-gray-850 rounded-2xl;
+
+  .searchWrapper {
+    display: flex;
+    align-items: center;
+    height: 41px;
+    margin-right: 16px;
+    font-weight: 600;
+    font-size: 16px;
+    @apply text-white;
+  }
+
+  .btnReset {
+    flex-shrink: 0;
+    width: 84px;
+    text-align: right;
+    @apply body-xs font-bold text-white;
+
+    &::after {
+      content: '';
+      position: absolute;
+      top: 0;
+      bottom: 0;
+      right: 96px;
+      width: 24px;
+      @apply body-xs font-bold text-white bg-gradient-to-l from-gray-850 to-transparent;
+    }
+  }
+}

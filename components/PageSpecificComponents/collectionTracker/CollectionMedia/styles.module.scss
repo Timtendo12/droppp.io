@@ -1,0 +1,16 @@
+@import '../../../../styles/animation.scss';
+
+.container {
+  display: flex;
+  align-items: center;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+  width: calc(100% - 16px);
+  height: calc(100% - 16px);
+
+  img {
+    max-width: 100%;
+  }
+}
